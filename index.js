@@ -7,7 +7,7 @@ import db from "./app/models/index.js";
 const app = express();
 dotenv.config();
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 db.sequelize
   .sync()
